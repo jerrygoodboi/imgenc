@@ -1,15 +1,9 @@
 if [[ "$1" = "-e" ]]
 then	
-for i in {1..5} 
-do
 	sed -i s/a/linuxisgreat/g $2
-done 
 elif [[ "$1" = "-d" ]]
 then
-for i in {1..5} 
-do
 	sed -i s/linuxisgreat/a/g $2
-done
 fi
 
 
