@@ -1,6 +1,6 @@
 # Simple programme that changes an image into another image.
 # And we can revert that image to original image
-for changing into another image 
->USAGE: ./imgenc -e "img.jpg"
-to revert it back
->USAGE: ./imgenc -d "img.jpg"
+for changing an image named "img.jpg" into another image 
+```./imgenc -e "img.jpg"```
+to revert it.
+```./imgenc -d "img.jpg"```
